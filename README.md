@@ -14,7 +14,7 @@ After running the above command the server will start by default on port: **8080
 
 ###### Or
 
-###### You can use the below CURL Commands:
+###### You can use the below cURL Commands:
 * curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:8080/getAtmLocatorByCity/Zaandam
 * curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:8080/getAtmLocatorList
 
