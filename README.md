@@ -2,7 +2,7 @@
 
 ## This Project consists of APIs to Fetch ATM Locations.
 
-Clone the project and start the server with the below command:
+Clone the project and start the server with the following command:
 **mvn spring-boot:run**
 
 After running the above command the server will start by default on port: **8080**
@@ -17,3 +17,7 @@ After running the above command the server will start by default on port: **8080
 ###### You can use the below CURL Commands:
 * curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:8080/getAtmLocatorByCity/Zaandam
 * curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:8080/getAtmLocatorList
+
+
+###### Developed on:
+Spring-boot
