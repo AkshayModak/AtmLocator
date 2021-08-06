@@ -9,8 +9,8 @@ After running the above command the server will start by default on port: **8080
 
 ###### Two GET APIs available. You can run these APIs directly from Postman or Browser.
 
-1. Get ATM Locations By Name: **localhost:8080/getAtmLocatorByCity/Zaandam**
-2. Get Lits of Atm Locations: **localhost:8080/getAtmLocatorList**
+1. Get ATM Locations By Name: **localhost:8080/getAtmLocatorByCity/{cityName} (cityName: You can get it from the list API.)**
+2. Get List of Atm Locations: **localhost:8080/getAtmLocatorList**
 
 ###### Or
 
